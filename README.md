@@ -10,6 +10,8 @@ Assuming that `pyenv` is already installed
 
 	>>> pyenv install 3.4.0
 
+This is the version of python specified in the Pipfile, so we will need install it before we can move on.
+
 ## Install the virtualenv and dependancies of the project
 
 I have added `export PIPENV_VENV_IN_PROJECT="enabled"` to my `~/.bash_profile` so that the virtual env is created in the project, this makes it easy to delete the virtualenv using `rm -rf .venv` if there are any strange problems.
